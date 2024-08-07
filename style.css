@@ -1,0 +1,126 @@
+
+
+*{
+    margin: 0px;
+padding: 0px;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+
+background-image: linear-gradient(black,gray);
+ 
+}
+
+#on{
+    margin-top: 20px;
+    border-radius: 30px;
+  margin-right: 50px;  
+
+}
+#of{
+
+    margin-top: 20px;
+
+    border-radius: 30px;
+    
+}
+audio{
+
+    display: none;
+}
+footer{
+    font-size:30px;
+    flex-wrap: wrap;
+align-self:  center;
+}
+u{
+    font-size:50px
+    ;
+    margin-bottom: 40px;
+}
+.container{margin: 0px;
+    padding: 0px;
+    display: flex ;
+    flex-wrap: wrap;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+ 
+color: white;
+text-align: center;
+text-decoration: dotted  ;
+}
+.game{display: flex;
+    flex-wrap: wrap;
+     flex-direction: row;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height:100%;
+    align-items: center;
+    justify-content: space-around;   
+border-color: white;
+margin-top: 50px;
+}
+#new{
+    width:" 100px";
+    height: 34px;
+    background-image: linear-gradient(blue,pink);
+color:aliceblue;
+}
+#audiobuuton{
+    display: flex;
+flex-direction: row;
+align-content: center;
+}
+#gbut{
+    font-size: 150%;
+    justify-content: center;
+    height: 50px;
+    border-color: azure;
+    background-image: linear-gradient(black,gray);
+    
+
+    
+    font-weight: bold;
+color: white;
+
+
+}
+#msg{
+    color:#ffffc7;
+    font-size: 150%;
+    
+    
+}
+.msg-container{
+    height: 20vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#s1{color: antiquewhite;
+    font-weight: bolder;
+    display: flex;
+ flex-direction: column;
+}
+
+#s2{color: antiquewhite;
+    font-weight: bolder;
+    display: flex;
+ flex-direction: column;
+}
+#msg2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+
+
+}
+.score{background-image: linear-gradient(rgb(0, 41, 0),green);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
